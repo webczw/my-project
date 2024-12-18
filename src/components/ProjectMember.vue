@@ -27,6 +27,7 @@ function addMember() {
     member.code = '';
     member.name = '';
 }
+// 删除项目成员
 function delMember(id: String) {
     memberObj.memberList = memberObj.memberList.filter(vo => vo.id != id);
 }
